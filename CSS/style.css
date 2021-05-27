@@ -227,9 +227,12 @@ width: 50px;
     text-align: center;
 }
 #dropdown_menu ul li:hover{
-    background-color: rgb(73, 93, 211);
-    color: black;
+    background-color: rgb(25, 0, 255);
+  
     
+}#dropdown_menu ul li a:hover{
+    background-color: rgb(25, 0, 255);
+    color: black;  
 }
 #dropdown_menu ul li a{
     text-decoration: none;
@@ -255,7 +258,7 @@ width: 50px;
     width: 100%;
     z-index: -1; 
     opacity: 1;
-    background-image: url(https://github.com/naresh-chharediya/fitness_point/blob/fitness-point/images/compress-ballet-background-01.jpg?raw=true);
+    background: url('https://github.com/naresh-chharediya/fitness_point/blob/fitness-point/images/compress-ballet-background-01.jpg?raw=true');
 
 }
 .home{
@@ -266,7 +269,7 @@ width: 50px;
 /* top banner start  */
 
 .topbanner{
-    height: 390px;
+    height: 270px;
 
     justify-content: center;
 }
